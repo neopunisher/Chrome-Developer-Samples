@@ -1,5 +1,6 @@
 {
   "name": "Sample - OAuth Contacts",
+  "manifest_version": 2,
   "version": "1.0.6",
   "icons": { "48": "img/icon-48.png",
             "128": "img/icon-128.png" },
@@ -15,6 +16,9 @@
     "default_title": "",
     "default_icon": "img/icon-19-off.png"
   },
+  "web_accessible_resources": [
+    "chrome_ex_oauth.html"
+  ],
   "permissions": [
     "tabs",
     "http://www.google.com/m8/feeds/*",

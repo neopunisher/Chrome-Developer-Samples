@@ -52,7 +52,7 @@ function getContacts() {
   oauth.authorize(function() {
     console.log("on authorize");
     setIcon();
-    var url = "http://www.google.com/m8/feeds/contacts/default/full";
+    var url = "https://www.google.com/m8/feeds/contacts/default/full";
     oauth.sendSignedRequest(url, onContacts, {
       'parameters' : {
         'alt' : 'json',
